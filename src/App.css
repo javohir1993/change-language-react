@@ -1,0 +1,77 @@
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #fff;
+  color: #222;
+  font-family: "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  padding: 1.5rem;
+  font-size: 3rem;
+  background-color: rgb(187, 211, 99);
+  color: red;
+}
+
+select {
+  padding: 1rem;
+  background-color: orange;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+main {
+  padding: 1.5rem;
+  font-size: 3rem;
+  background-color: rgb(121, 228, 121);
+  color: blue;
+}
+
+footer {
+  padding: 1.5rem;
+  background-color: rgb(89, 209, 209);
+  color: rgb(247, 0, 255);
+  font-size: 3rem;
+}
